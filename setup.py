@@ -14,7 +14,7 @@ setup(
     author_email='tomas.castro@goatlab.io',
     # Needed to actually package something
     packages=['pyfluent'],
-    download_url='https://github.com/Goat-Lab/pyfluentformio/archive/v0.1.1.tar.gz',
+    download_url='https://github.com/Goat-Lab/pyfluentformio/archive/v0.1.2.tar.gz',
     keywords=['fluent', 'form.io', 'formio'],
     classifiers=[
         'Development Status :: 3 - Alpha',
@@ -31,7 +31,7 @@ setup(
     # Needed for dependencies
     install_requires=['requests', 'pandas'],
     # *strongly* suggested for sharing
-    version='0.1.1',
+    version='0.1.2',
     # The license can be anything you like
     license='MIT',
     description='Fluent wrapper for creating requests to Form.io',
