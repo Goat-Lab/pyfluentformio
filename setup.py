@@ -13,7 +13,7 @@ setup(
     author='Tomas Castro',
     author_email='tomas.castro@goatlab.io',
     # Needed to actually package something
-    packages=['pyfluent'],
+    packages=['pyfluentformio'],
     download_url='https://github.com/Goat-Lab/pyfluentformio/archive/v0.1.1.tar.gz',
     keywords=['fluent', 'form.io', 'formio'],
     classifiers=[

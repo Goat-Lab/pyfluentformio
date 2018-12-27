@@ -5,7 +5,7 @@ Python version of FluentJS. Allows users to perform GET and POST requests to For
 ## Usage
 
 ```python
-from pyfluent-formio import Fluent
+from pyfluentformio import Fluent
 
 connector = Fluent(baseUrl = 'FORMIO BASE URL', resourcePath='FORMIO RESOURCE PATH', token='FORMIO API TOKEN')
 
