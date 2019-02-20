@@ -99,7 +99,7 @@ class Fluent:
             firstChunk = self.chunkSizeString
 
         if(isinstance(firstChunk, str)):
-            url = url + 'limit=', firstChunk + '&'
+            url = url + 'limit=' + firstChunk + '&'
 
         self.firstChunk = firstChunk
         return url
